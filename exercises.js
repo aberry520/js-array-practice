@@ -8,7 +8,15 @@ document.addEventListener('DOMContentLoaded', function () {
     // ---------------------
 
     // Put your answer below -------------------------
-
+    
+    function func1 (string, integer){
+        const arr = [];
+        for (let i = 0; i < integer; i++){
+            arr.push(string);    
+        }; 
+        return arr;
+    };
+    console.log(func1("hi", 30))
     // -----------------------------------------------
 
     // ---------------------
