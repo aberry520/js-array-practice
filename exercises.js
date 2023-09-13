@@ -37,7 +37,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // ---------------------
 
     // Put your answer below -------------------------
-
+    function func3 (arr){
+        return arr.filter(Boolean);
+    };
+    console.log("#3", func3([null,0,2,undefined,"","hi",0n,-0,NaN,false,document.all, true, 1]));
     // -----------------------------------------------
 
     // ---------------------
@@ -47,7 +50,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // ---------------------
 
     // Put your answer below -------------------------
+    function func4 (arr){
 
+    }
+    console.log("#4", func4());
     // -----------------------------------------------
 
     // ---------------------
