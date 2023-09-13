@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }; 
         return arr;
     };
-    console.log(func1("hi", 30))
+    console.log("#1", func1("hi", 30));
     // -----------------------------------------------
 
     // ---------------------
@@ -25,7 +25,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // ---------------------
 
     // Put your answer below -------------------------
-
+    function func2 (arr){
+        let arrNew = [...arr].reverse();
+        return arrNew;
+    };
+    console.log("#2", func2(["a","b","c"]));
     // -----------------------------------------------
 
     // ---------------------
